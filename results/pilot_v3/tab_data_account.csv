@@ -1,0 +1,4 @@
+split,lots,observed_bids_ge2,no_observed_bidder,supplier_visibility_verified
+test,22349,3403,11200,False
+train,80293,17278,36514,False
+validation,12535,1583,6728,False

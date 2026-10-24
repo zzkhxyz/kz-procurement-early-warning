@@ -1,0 +1,71 @@
+{
+  "timestamp_utc": "2026-10-24T18:15:46.287305+00:00",
+  "mode": "conditional_retrospective",
+  "data_manifest_sha256": "3448f1f77b8c60f5f161f26e2bc814b1e13197a3f97a218f95a08773f1c5b011",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "synthetic_seed": 20261013,
+  "bootstrap_draws": 2000,
+  "model_selection_grid": [
+    [
+      100,
+      128
+    ],
+    [
+      100,
+      256
+    ],
+    [
+      100,
+      512
+    ],
+    [
+      200,
+      128
+    ],
+    [
+      200,
+      256
+    ],
+    [
+      200,
+      512
+    ]
+  ],
+  "selected_parameters": [
+    200,
+    128
+  ],
+  "cutoff": "bid_deadline_proxy",
+  "offer_visibility_proven": false,
+  "winner_publication_verified": false,
+  "winner_rotation_score_used_in_model": false,
+  "window_lookback_days": [
+    90,
+    180,
+    365
+  ],
+  "history_embargo_days": 30,
+  "source_data_in_public_repo": false,
+  "host": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "python": "3.13.9",
+  "limitations": [
+    "Data-snapshot provenance unavailable",
+    "Current participants observed retrospectively only",
+    "No full verified historical winner feature block",
+    "Synthetic rotation score excluded from model",
+    "Bidder graph requires portal disclosure-timestamp verification",
+    "100k lot cap waived"
+  ]
+}

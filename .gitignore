@@ -1,0 +1,12 @@
+# Raw and processed procurement data are private
+data/*
+!data/README.md
+*.parquet
+export_manifest.json
+# Row-level outputs with identifiers
+*RESTRICTED*
+outputs/
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/

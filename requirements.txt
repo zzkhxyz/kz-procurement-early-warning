@@ -1,0 +1,10 @@
+# Versions recorded in the pilot run; others: use the versions in your environment
+pandas==2.3.3
+networkx==3.5
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+pyarrow
+jupyterlab

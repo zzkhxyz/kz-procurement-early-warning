@@ -1,0 +1,1 @@
+Place the private Mitwork export here as `data/raw/` (mw_buys.parquet, mw_lots.parquet, mw_offers.parquet, mw_subjects.parquet, export_manifest.json). These files are not distributed and are excluded by `.gitignore`.

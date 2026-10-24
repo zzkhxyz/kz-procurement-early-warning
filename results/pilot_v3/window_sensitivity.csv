@@ -1,0 +1,4 @@
+window_days,eligible_lots,jaccard_vs_180,note
+90,22349,0.3751537515375154,"fixed-model test feature sensitivity, not retrained IF"
+180,22349,1.0,"fixed-model test feature sensitivity, not retrained IF"
+365,22349,0.4296675191815857,"fixed-model test feature sensitivity, not retrained IF"

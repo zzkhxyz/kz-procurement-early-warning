@@ -1,0 +1,5 @@
+pattern,contrast,K,estimate,ci95_low,ci95_high,ci97_5_low,ci97_5_high,n_boot
+co_bidding,graph_minus_tabular,0.05,0.96,0.8947368421052632,1.0,0.8867870926243568,1.0,2000
+co_bidding,graph_minus_redflag,0.05,0.94,0.8771381578947368,1.0,0.866638418079096,1.0,2000
+rotation,graph_minus_tabular,0.05,0.96,0.8974358974358975,1.0,0.8863496646795826,1.0,2000
+rotation,graph_minus_redflag,0.05,0.94,0.879969696969697,1.0,0.8666666666666667,1.0,2000

@@ -1,0 +1,8 @@
+feature_family,status,reason
+"Lot amount, category and trade method",snapshot-only / not certified,No field-level immutable publication history
+Bidding window (start/end),snapshot-only / not certified,Amendments may have changed deadlines
+Prior buyer lot deadlines,retrospective / strict earlier timestamps,Cannot verify whether previous records were publicly known
+"Current lot offer counts, identities or prices",EXCLUDED,No verified bid opening/public disclosure timestamp
+Winner and award outcomes,EXCLUDED,Outcome information arrives after prediction cutoff
+Prior buyer-supplier graph,RETROSPECTIVE ONLY,30-day availability buffer does not prove disclosure
+Parent/child and reissue relationships,AUDITED / not predictive feature,Possible shared latent event across splits

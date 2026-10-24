@@ -1,0 +1,5 @@
+table,rows,columns,manifest_rows,count_matches
+mw_buys,204567,42,204567,True
+mw_lots,674344,39,674344,True
+mw_offers,627221,30,627221,True
+mw_subjects,21099,24,21099,True

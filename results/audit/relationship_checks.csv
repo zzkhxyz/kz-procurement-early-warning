@@ -1,0 +1,3 @@
+relation,null_foreign_key,orphan_nonnull_rows,child_rows
+mw_lots.trd_buys_id → mw_buys.id,0,0,674344
+mw_offers.trd_lots_id → mw_lots.id,0,0,627221
