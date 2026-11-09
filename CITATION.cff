@@ -3,6 +3,8 @@ message: "Please cite the specific version used. The original pilot is commit d4
 title: "Early warning screening of public procurement in Kazakhstan (pilot): code and aggregate results"
 type: software
 version: 1.0.0
+date-released: 2026-11-09
+doi: 10.5281/zenodo.24089663
 authors:
   - family-names: Tabuldinov
     given-names: Zhan
