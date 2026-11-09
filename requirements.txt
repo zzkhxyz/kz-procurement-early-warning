@@ -1,4 +1,5 @@
-# Versions recorded in the pilot run; others: use the versions in your environment
+# Historically documented versions: pandas 2.3.3 and NetworkX 3.5.
+# Other package versions were not preserved; this is not a historical lock file.
 pandas==2.3.3
 networkx==3.5
 numpy

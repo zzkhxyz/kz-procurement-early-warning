@@ -1,0 +1,14 @@
+{
+  "title": "Early warning screening of public procurement in Kazakhstan (pilot): code and aggregate results",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "access_right": "open",
+  "creators": [
+    {"name": "Tabuldinov, Zhan"},
+    {"name": "Nurkaliyev, Almas"},
+    {"name": "Kazmukhambetov, Daulet"}
+  ],
+  "description": "Code and public aggregate results for the preliminary, conditional retrospective pilot study. Code is MIT licensed; aggregate CSV and JSON files under results/ are CC BY 4.0. The underlying Mitwork export, participant identifiers, lot-level rankings and manual-review workbook are not included because the authors do not have redistribution rights for the export. The original analysis is commit d4ab268d8914a893f4cdadf4bbe625b0ab30a025. The historical versions of several Python dependencies were not recorded, and the numerical results have not been independently reproduced from this archive.",
+  "license": "mit",
+  "keywords": ["public procurement", "Kazakhstan", "anomaly screening", "aggregate results"]
+}

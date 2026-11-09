@@ -4,6 +4,10 @@ Code and aggregate results for the pilot study *"Big Data-Driven Early Warning S
 
 Authors: Zhan Tabuldinov, Almas Nurkaliyev, Daulet Kazmukhambetov.
 
+## Version and citation
+
+The reported pilot was committed as [`d4ab268d8914a893f4cdadf4bbe625b0ab30a025`](https://github.com/zzkhxyz/kz-procurement-early-warning/tree/d4ab268d8914a893f4cdadf4bbe625b0ab30a025) on 25 October 2026 (UTC+05:00). The MIT code license and CC BY 4.0 aggregate-results license were added in the later commit [`0b8facfbe45dbf6ef2b491ab0bb734d4eccfc8bf`](https://github.com/zzkhxyz/kz-procurement-early-warning/commit/0b8facfbe45dbf6ef2b491ab0bb734d4eccfc8bf). Release `v1.0.0` archives the license-bearing code and public aggregate results; cite its version-specific Zenodo DOI once displayed on the [release page](https://github.com/zzkhxyz/kz-procurement-early-warning/releases/tag/v1.0.0). See `CITATION.cff` for the authors and project title.
+
 ## What the pilot does
 
 Three ranking methods are compared on the same held-out test cohort of Mitwork procurement lots:
@@ -40,11 +44,15 @@ The article uses only **Part XIII and later** of the notebook (the specification
 
 ## Data availability
 
-The pipeline runs on a private export of the Mitwork procurement database (tables `mw_buys`, `mw_lots`, `mw_offers`, `mw_subjects`, exported 24 Oct 2026). Raw records, lot-level rankings and the blinded review workbook contain administrative identifiers and are **not** included. They are available to reviewers on request from the authors. The SHA-256 hash of the export manifest is recorded in `results/pilot_v3/run_log.json`.
+The public aggregate CSV and JSON files are in `results/` and are licensed CC BY 4.0 under `results/LICENSE.md`. The code is MIT licensed under the root `LICENSE`. The source export manifest SHA-256 is `3448f1f77b8c60f5f161f26e2bc814b1e13197a3f97a218f95a08773f1c5b011`; it identifies the private source export manifest, not a public data archive. No raw Mitwork records, participant identifiers, lot-level rankings, or manual-review workbook are distributed.
+
+The pipeline runs on a private export of the Mitwork procurement database (tables `mw_buys`, `mw_lots`, `mw_offers`, `mw_subjects`, exported 24 Oct 2026). Raw records, lot-level rankings and the blinded review workbook contain administrative identifiers and are **not** included. Access may be requested from the authors, subject to permission from the data holder. The SHA-256 hash of the export manifest is recorded in `results/pilot_v3/run_log.json`.
 
 To rerun the notebook, place the four Parquet files and `export_manifest.json` in `data/raw/` and run all cells in order.
 
 ## Environment
+
+The pilot notebook metadata and `run_log.json` record Python 3.13.9. `requirements.txt` pins pandas 2.3.3 and NetworkX 3.5; the original versions of scikit-learn, NumPy, SciPy, Matplotlib, seaborn and PyArrow were not preserved in the public run metadata. The unchanged pilot environment is unavailable here, so there is no historical `requirements-lock.txt`. Installing `requirements.txt` today creates a new environment and has not been shown to reproduce the reported results. Running the complete notebook also requires access to the restricted source export.
 
 Python 3.13.9 on Windows 11 (Intel CPU). See `requirements.txt`. Seeds: 42–51 for Isolation Forest, 20261013 for the synthetic insertion and the bootstrap.
 

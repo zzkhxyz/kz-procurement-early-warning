@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the specific version used. The original pilot is commit d4ab268d8914a893f4cdadf4bbe625b0ab30a025."
+title: "Early warning screening of public procurement in Kazakhstan (pilot): code and aggregate results"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Tabuldinov
+    given-names: Zhan
+  - family-names: Nurkaliyev
+    given-names: Almas
+  - family-names: Kazmukhambetov
+    given-names: Daulet
+repository-code: "https://github.com/zzkhxyz/kz-procurement-early-warning"
+license: MIT
+abstract: "Code and public aggregate results for a preliminary, conditional retrospective procurement-screening pilot. The results under results/ are separately licensed CC BY 4.0; the raw Mitwork export is not redistributed."
